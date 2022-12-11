@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         outfit: "Outfit, sans-serif",
+        allura: "Rouge Script, sans-serif",
       },
     },
   },
