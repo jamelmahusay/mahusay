@@ -27,11 +27,11 @@ export const Hero = () => {
             </button>
           </div>
 
-          <div className="hidden bg-white md:flex gap-10 p-4 lg:flex-col rounded-[100%] w-[400px] h-[400px] overflow-hidden relative">
+          <div className="hidden bg-white lg:flex gap-10 p-4 lg:flex-col rounded-[100%] w-[400px] h-[400px] overflow-hidden relative">
             <img
               src={profile}
               alt="profile picture"
-              className="bg-cover absolute top-[-100px] left-0"
+              className="bg-cover absolute top-[-80px] left-0"
             />
           </div>
         </div>
