@@ -50,7 +50,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-44}
             duration={300}
             delay={500}
             isDynamic={true}

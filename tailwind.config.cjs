@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgColor: "#ECF0F3",
+        bgColor: "#303030",
         primary: "#3F37C9",
-        textColor: "#1F2937",
+        textColor: "white",
       },
       fontFamily: {
         outfit: "Outfit, sans-serif",
