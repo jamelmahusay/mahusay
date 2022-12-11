@@ -1,5 +1,4 @@
 import { Typewriter } from "react-simple-typewriter";
-import { FaFacebook, FaGithub } from "react-icons/fa";
 import { profile } from "../assets/img";
 
 export const Hero = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { css, html, js, node, react, tailwind } from "../assets/img";
+import { about, css, html, js, node, react, tailwind } from "../assets/img";
 
 const About = () => {
   return (
@@ -8,14 +8,27 @@ const About = () => {
         <div className="text-center px-5 py-[30px] space-y-[20px]">
           <div className="mx-auto">
             <h1 className="text-primary text-[32px]">ABOUT</h1>
-            <p>who am I</p>
           </div>
-          <p>
-            Hello! I am Romel Acopra, a 3rd year Bachelor of Science in
-            Information Technology student at Sorsogon State University - Bulan
-            Campus. I love to explore to learn different knowledge and learning.
-            I do also love coding and chess!
-          </p>
+          <div className="flex flex-col md:flex-row max-w-[800px] w-full h-[700px] md:h-[500px] bg-zinc-50 mx-auto justify-between overflow-hidden rounded-lg">
+            <div className="bg-black flex-1 h-[50%] md:h-full w-full overflow-hidden relative">
+              <img
+                src={about}
+                alt="image"
+                className="absolute top-[-50px] md:top-0 bg-cover md:h-[500px] w-full"
+              />
+            </div>
+            <div className="bg-bgColor bg-opacity-90 h-full w-full flex-1 flex flex-col items-start justify-center  ">
+              <div className="h-full w-full flex-1 flex flex-col items-start justify-center p-6 space-y-5">
+                <p>Name: Jamel Mahusay</p>
+                <p>Age: 21 year old</p>
+                <p>Gender: Female</p>
+                <p>School: Sorsogon State University</p>
+                <p>Course: BSIT</p>
+                <p>Language: English, Tagalog</p>
+                <p>Country: Philippines</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="w-ful flex flex-col justify-center items-center">
           <div className="text-center space-y-[20px]">
