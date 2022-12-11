@@ -50,7 +50,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-44}
+            offset={-43}
             duration={300}
             delay={500}
             isDynamic={true}
@@ -63,7 +63,7 @@ const Navbar = () => {
             to="resume"
             spy={true}
             smooth={true}
-            offset={-67}
+            offset={-65}
             duration={300}
             delay={500}
             isDynamic={true}
@@ -84,7 +84,19 @@ const Navbar = () => {
           >
             projects
           </Link>
-          <li>contact</li>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-43}
+            duration={300}
+            delay={500}
+            isDynamic={true}
+            className="link"
+          >
+            contact
+          </Link>
         </ul>
       </div>
 
@@ -128,7 +140,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-50}
               duration={300}
               delay={500}
               isDynamic={true}
@@ -163,7 +175,19 @@ const Navbar = () => {
             >
               projects
             </Link>
-            <li>contact</li>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={300}
+              delay={500}
+              isDynamic={true}
+              className="link"
+              onClick={menuClick}
+            >
+              contact
+            </Link>
           </ul>
         </div>
       </div>

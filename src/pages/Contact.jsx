@@ -8,7 +8,7 @@ import {
 
 function Contact() {
   return (
-    <div name="contact" className="w-full">
+    <div name="contact" className="w-full md:h-screen">
       <div className="w-full py-[50px] px-[30px] max-w-[1200px] mx-auto">
         <div className="mx-auto text-center mb-[40px]">
           <h1 className="text-primary text-[32px]">CONTACT</h1>
