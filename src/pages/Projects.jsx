@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full flex flex-col max-w-[1200px] mx-auto my-[50px] space-y-2 px-[15px] md:px-[30px]"
+      className="w-full flex flex-col max-w-[1200px] mx-auto my-[50px] space-y-2 px-[15px] md:px-[30px] pt-2"
     >
       <div className="mx-auto text-center">
         <h1 className="text-primary text-[32px]">PROJECTS</h1>

@@ -21,7 +21,7 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed z-10 shadow-lg w-full h-20 backdrop-blur-[16px] bg-[rgba(236, 240, 243, 1)]"
+          ? "fixed z-10 w-full h-20 backdrop-blur-[16px] bg-[rgba(236, 240, 243, 1)]"
           : "fixed bg-bgColor w-full h-20 z-50"
       }
     >
@@ -63,7 +63,7 @@ const Navbar = () => {
             to="resume"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-67}
             duration={300}
             delay={500}
             isDynamic={true}
@@ -76,7 +76,7 @@ const Navbar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-61}
             duration={300}
             delay={500}
             isDynamic={true}
