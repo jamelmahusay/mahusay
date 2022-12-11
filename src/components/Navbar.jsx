@@ -26,7 +26,7 @@ const Navbar = () => {
       }
     >
       <div className="flex max-w-[1200px] w-full h-full mx-auto px-[15px] md:px-[30px] lg:px-10 justify-between items-center">
-        <h1 className="text-[32px] text-textColor">r.acopra</h1>
+        <h1 className="text-[32px] text-textColor">Portfolio</h1>
 
         <div className="md:hidden hover:scale-105" onClick={menuClick}>
           <FaBars size={24} />
