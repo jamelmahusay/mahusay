@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-outfit text-textColor bg-bgColor;
+  }
+  li,
+  .link {
+    @apply cursor-pointer;
+  }
+  p {
+    @apply text-[18px];
+  }
+
+  input {
+    @apply w-full h-[40px] rounded-[10px] bg-primary bg-opacity-50 px-[10px];
+  }
+}
+
+li:hover,
+.link:hover {
+  color: #3f37c9;
+}
+
+.active {
+  color: #3f37c9;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+textarea,
+textarea::placeholder {
+  color: white;
+  padding: 10px;
+}
+
+input,
+textarea {
+  border: none;
+}
