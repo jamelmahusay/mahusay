@@ -10,6 +10,7 @@ export const Project = ({ image, alt, title, link }) => {
         </h1>
         <a
           href={link}
+          target="_blank"
           className="border-none bg-[#303030] bg-opacity-60 rounded-[8px] text-white text-[18px] px-[28px] py-[16px] mt-[30px] hover:bg-opacity-80 opacity-0 group-hover:opacity-100 duration-500"
         >
           Github Code

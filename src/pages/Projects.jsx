@@ -15,6 +15,7 @@ const Projects = () => {
           title="Note Taking App"
           alt="image"
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uAHgVnkYQcBxHF_9wOFPzYNcQSThcOKuPXPkDRzbW5VgcvRzDc03kL3jbUMIglVTUq4&usqp=CAU"
+          link="https://github.com/jamelmahusay/it-elec3-note-app"
         />
         <Project
           title="Weather App"
