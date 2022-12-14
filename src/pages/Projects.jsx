@@ -21,6 +21,7 @@ const Projects = () => {
           title="Weather App"
           alt="image"
           image="https://www.igeeksblog.com/wp-content/uploads/2022/06/Best-weather-apps-for-iPhone-and-iPad.jpg"
+          link="https://github.com/jamelmahusay/weather-app"
         />
         <Project
           title="Chat App"
